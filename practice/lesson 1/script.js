@@ -79,3 +79,31 @@ let concatenation = str1 + ' ' + str2 + ' ' + str3;
 document.write(concatenation);
 */
 
+//Task 10
+let num1 = prompt("number 1");
+let num2 = prompt("number 2");
+let result = 0;
+let symbol = prompt("symbol: + - * / %")
+num1 = parseFloat(num1);
+num2 = parseFloat(num2);
+switch (symbol) {
+    case '+':
+        result = num1 + num2;
+    break;
+    case '-':
+        result = num1 - num2;
+    break;
+    case '*':
+        result = num1 * num2;
+    break;
+    case '/':
+        result = num1 / num2;
+    break;
+    case '%':
+        result = num1 % num2;
+    break;
+}
+
+console.log(result);
+
+
