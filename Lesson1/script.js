@@ -152,11 +152,10 @@ document.write(string2 +'_');
 document.write(string3 +'_');
 */
 
-/*
-//Task 4
-let FirstName = prompt();
-let LastName = prompt();
-let Patronymic = prompt();
+/*//Task 4
+let FirstName = prompt("FirstName");
+let LastName = prompt("LastName");
+let Patronymic = prompt("Patronymic");
 
 // console.log
 console.log(FirstName);
@@ -174,10 +173,83 @@ document.write(LastName + '_');
 document.write(Patronymic);*/
 
 /*//Task 5
-let FirstName = prompt();
-let LastName = prompt();
-let Patronymic = prompt();
+let FirstName = prompt("FirstName");
+let LastName = prompt("LastName");
+let Patronymic = prompt("Patronymic");
 let person = FirstName + LastName + Patronymic;
 console.log(person);
 alert(person);
 document.write(person);*/
+
+/*//Task 6
+let FatherFirstName = prompt("FatherFirstName");
+let FatherLastName = prompt("FatherLastName");
+let FatherPatronymic = prompt("FatherPatronymic");
+let MotherFirstName = prompt("MotherFirstName");
+let MotherLastName = prompt("MotherLastName");
+let MotherPatronymic = prompt("MotherPatronymic");
+let MyFirstName = prompt("MyFirstName");
+let MyLastName = prompt("MyLastName");
+let MyPatronymic = prompt("MyPatronymic");
+let FatherPerson = FatherFirstName + FatherLastName + FatherPatronymic;
+let MotherPerson = MotherFirstName + MotherLastName + MotherPatronymic;
+let MyPerson = MyFirstName + MyLastName + MyPatronymic;
+console.log(FatherPerson);
+console.log(MotherPerson);
+console.log(MyPerson);
+alert(FatherPerson);
+alert(MotherPerson);
+alert(MyPerson);
+document.write(FatherPerson + "___");
+document.write(MotherPerson + "___");
+document.write(MyPerson);*/
+
+/*
+//Task 7
+let number1 = prompt("number1");
+let number2 = prompt("number2");
+let number3 = prompt("number3");
+number1 = +number1;
+number2 = +number2;
+number3 = +number3;
+console.log(number1);
+console.log(number2);
+console.log(number3);
+alert(number1);
+alert(number2);
+alert(number3);
+document.write(number1 + '_');
+document.write(number2 + '_');
+document.write(number3);
+*/
+
+/*//Task 8
+let number1 = prompt("number1");
+let number2 = prompt("number2");
+let number3 = prompt("number3");
+number1 = parseInt(number1);
+number2 = parseInt(number2);
+number3 = parseInt(number3);
+let result = number1 + number2 + number3;
+console.log(result);
+alert(result);
+document.write(result);*/
+
+/*
+//Task 9
+let number1 = prompt("number1");
+let number2 = prompt("number2");
+let number3 = prompt("number3");
+number1 = parseFloat(number1);
+number2 = parseFloat(number2);
+number3 = parseFloat(number3);
+let result = number1 + number2 + number3;
+console.log(result);
+alert(result);
+document.write(result);
+*/
+
+
+
+
+
