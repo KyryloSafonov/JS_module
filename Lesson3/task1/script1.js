@@ -1,5 +1,11 @@
 /*
 // Task 1
+//-- створити об'єкт (не меньше 5ти властивостей) який описує
+// - собаку
+// - людину
+// - автомобіль
+// - квартиру
+// - книгу
 let Dog = {
     name: 'Richi',
     age: 7 ,
@@ -47,6 +53,10 @@ let Book = {
 }*/
 
 /*// Task 2
+//-- Створити масив та вивести його в консоль:
+// - з 5 собак
+// - 3 5 людей
+// - з 5 автомобілів
 let Dogs = [
     {name:'Richi', breed:'spitz'},
     {name:'Arna',  breed:'german shepherd'},
@@ -85,6 +95,12 @@ console.log(Books);*/
 
 /*
 // Task 3
+//-- створити об'єкт (не меньше 5ти властивостей) який описує, одна з властивостей обов'язково повинна бути об'єктом,ще одна - масивом
+// - будинок
+// - водій
+// - іграшку
+// - стіл
+// - сумка
 let House = {
     square: '182 m.sq.',
     numberOfRooms: {
@@ -173,8 +189,10 @@ let users = [
     {name: 'max', age: 31, status: true}
 ];
 
+////- звернутися в відповідну ячейку масиву і відповідний параметр об'єкта і вивести в консольх наступне
 /!*
 // andrey
+//- статус Андрія
 for (let user of users) {
     // console.log(user)
     for (let userKey in user) {
@@ -185,6 +203,7 @@ for (let user of users) {
 }*!/
 
 /!*!// max
+//- статус Максима
 for (let user of users) {
     // console.log(user)
     for (let userKey in user) {
@@ -195,6 +214,7 @@ for (let user of users) {
 }*!/
 
 /!*!// last-1
+//- ім'я передостаннього об'єкту
 for (let i = 0; i < users.length; i++) {
     let user = users[users.length-2];
     console.log(user.name)
@@ -202,6 +222,7 @@ for (let i = 0; i < users.length; i++) {
 }*!/
 
 /!*!// third-name
+//- ім'я третього об'єкта
 for (let i = 0; i < users.length; i++) {
     let user = users[2];
     console.log(user.name)
@@ -209,6 +230,7 @@ for (let i = 0; i < users.length; i++) {
 }*!/
 
 /!*!// age Oleg
+//- вік Олега
 for (let user of users) {
     for (let userKey in user) {
         if (user.name ==='oleg'){
@@ -218,6 +240,7 @@ for (let user of users) {
 }*!/
 
 /!*!// age olya
+//- вік Олі
 for (let user of users) {
     // console.log(user)
     for (let userKey in user) {
@@ -228,6 +251,7 @@ for (let user of users) {
 }*!/
 
 /!*!// age + name fifth
+//- вік + ім'я 5го об'єкта
 for (let i = 0; i < users.length; i++) {
     let user = users[4];
     console.log(user.name + ' ' + user.age)
@@ -235,6 +259,7 @@ for (let i = 0; i < users.length; i++) {
 }*!/
 
 // age + status ann
+//- вік + сатус Анни
 for (let user of users) {
     for (let userKey in user) {
         if (user.name === 'anya') {
