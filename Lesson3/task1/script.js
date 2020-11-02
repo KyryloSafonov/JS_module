@@ -1,9 +1,9 @@
-// Task 1
+/*// Task 1
 let content = document.getElementById('content');
 console.log(content);
 let rules = document.getElementById('rules');
 console.log(rules);
-content.textContent = 'Мне сладких обманов романа не надо,\n' +
+content.innerText = 'Мне сладких обманов романа не надо,\n' +
     'Прочь вымысел! Тщетно души не волнуй!\n' +
     'О, дайте мне луч упоенного взгляда\n' +
     'И первый стыдливый любви поцелуй!\n' +
@@ -38,7 +38,7 @@ content.textContent = 'Мне сладких обманов романа не н
     'И лучшим сокровищем памяти будет -\n' +
     'Он - первый стыдливый любви поцелуй!'
 
-rules.textContent = 'Ты ведь тоже – человек!\n' +
+rules.innerText = 'Ты ведь тоже – человек!\n' +
     'Приглядись поближе –\n' +
     'Видно, ты не выше всех,\n' +
     'Но ничуть не ниже!\n' +
@@ -47,9 +47,24 @@ rules.textContent = 'Ты ведь тоже – человек!\n' +
     'Знал удач немало…\n' +
     'Так что, брат, не вешай нос:\n' +
     'Наше не пропало!'
-/*
-let all = document.body.children;
-// all.style.backgroundColor = 'red';
-HTMLAllCollection.style.backgroundColor = 'red';
-console.log(all);*/
+
+let all = document.getElementsByClassName('all');
+console.log(all);
+for (let allElement of all) {
+    allElement.style.backgroundColor = 'red';
+    allElement.style.color = 'blue';
+}
+
+console.log(rules.classList);
+
+let fc_rules = document.getElementsByClassName('fc_rules');
+console.log(fc_rules);
+for (let fcRule of fc_rules) {
+    fcRule.style.color = 'red';
+}*/
+
+
+
+
+
 
