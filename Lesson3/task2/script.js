@@ -463,7 +463,7 @@ for (let user of users) {
     }
 }*/
 
-// Array users
+/*// Array users
 let users = [
     {
     name: 'vasya',
@@ -521,7 +521,8 @@ let users = [
     status: true,
     address: {city: 'Cairo', country: 'Egypt', street: 'Seashore', houseNumber: 45}
 }
-];
+];*/
+
 /*// task 19
 //- З масиву users за допомогою циклу витягнути адреси користувачів і записати (скопіювати) їх в інший порожній масив.
 let userAddress = [];
@@ -535,7 +536,11 @@ for (let user of users) {
 // - За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement. Всі данні в одному блоці.
 for (let user of users) {
     let div = document.createElement("div");
-    div.innerHTML = `<p>${user.name} ${user.age} ${user.status} ${user.address.city} ${user.address.country} ${user.address.street} ${user.address.houseNumber} </p>`;
+    let address = '';
+    for (let address1 in user.address) {
+        address = address + ' ' + user.address[address1];
+    }
+    div.innerHTML = `<p>${user.name} ${user.age} ${user.status} ${address}</p>`;
     document.body.appendChild(div);
 }*/
 
@@ -546,15 +551,104 @@ for (let user of users) {
     let div2 = document.createElement("div");
     let div3 = document.createElement("div");
     let div4 = document.createElement("div");
+    let address = '';
+    for (let address1 in user.address) {
+        address = address + ' ' + user.address[address1];
+    };
     div1.innerHTML = user.name;
     div2.innerHTML = user.age;
     div3.innerHTML = user.status;
-    div4.innerHTML = user.address;
+    div4.innerHTML = address;
     document.body.appendChild(div1);
     document.body.appendChild(div2);
     document.body.appendChild(div3);
     document.body.appendChild(div4);
 }*/
+
+/*// task 22
+// - За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement, розділивши всі властивості по своїм блокам , блок з адресою зробити окремим блоком, з блоками для кожної властивості
+for (let user of users) {
+
+    let div = document.createElement("div");
+    let name = document.createElement("h3");
+    let age = document.createElement("p");
+    let status = document.createElement("p");
+    let address = document.createElement("div");
+
+
+    for (let address1 in user.address) {
+        let item = document.createElement("div");
+        item.innerHTML  = user.address[address1];
+        address.appendChild(item);
+    };
+
+    name.innerText = user.name;
+    age.innerText = user.age;
+    status.innerText = user.status;
+
+    div.appendChild(name);
+    div.appendChild(age);
+    div.appendChild(status);
+    div.appendChild(address);
+    document.body.appendChild(div);
+}*/
+
+/*// task 23
+// З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
+// Записати цей об'єкт в новий масив
+// Частковий приклад реультату:
+// let usersWithCities = [{id: 1, name: 'vasya', age: 31, status: false, address: {user_id: 1, country: 'Ukraine', city: 'Ternopil'}}....]
+let usersWithId = [{id: 1, name: 'vasya', age: 31, status: false}, {id: 2, name: 'petya', age: 30, status: true}, {id: 3, name: 'kolya', age: 29, status: true}, {id: 4, name: 'olya', age: 28, status: false},];
+let citiesWithId = [{user_id: 3, country: 'USA', city: 'Portland'}, {user_id: 1, country: 'Ukraine', city: 'Ternopil'}, {user_id: 2, country: 'Poland', city: 'Krakow'}, {user_id: 4, country: 'USA', city: 'Miami'},];
+
+for (const user of usersWithId) {
+    for (let city of citiesWithId) {
+        if (user.id === city.user_id){
+            user.address = city;
+        }
+    }
+}
+console.log(usersWithId); */
+
+/*// task 24
+// - створити розмітці блок з id, class та текстом в середені. Зчитати окремо цей текст з селекторів по id , class та тегу
+// let elementById= document.getElementById('content');
+// let innerText = elementById.innerText;
+// console.log(innerText);
+
+// let elementByClass= document.getElementsByClassName('rules');
+// for (let element of elementByClass) {
+//     console.log(element);
+// }
+
+// let elementByTag = document.getElementsByTagName('div');
+// for (let element of elementByTag) {
+//     console.log(element);
+// }*/
+
+/*// task 25
+// - змінити цей текст використовуючи селектори id, class,  tag
+// let elementById= document.getElementById('content');
+// elementById.innerText = 'Happy Holidays, BITCH!'
+// let innerText = elementById.innerText;
+// console.log(innerText);
+
+// let elementByClass= document.getElementsByClassName('rules');
+// for (let element of elementByClass) {
+//     element.innerText = 'Happy Holidays, BITCH!'
+//     console.log(element);
+// }
+
+// let elementByTag = document.getElementsByTagName('div');
+// for (let element of elementByTag) {
+//     element.innerText = 'Happy Holidays, BITCH'
+//     element = element.innerText.toUpperCase();
+//     console.log(element);
+// }*/
+
+// task 26
+// - змінити висоту та ширину блоку використовуючи селектори id, class,  tag
+
 
 
 
