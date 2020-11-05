@@ -610,7 +610,8 @@ for (const user of usersWithId) {
 }
 console.log(usersWithId); */
 
-/*// task 24
+/*
+// task 24
 // - створити розмітці блок з id, class та текстом в середені. Зчитати окремо цей текст з селекторів по id , class та тегу
 // let elementById= document.getElementById('content');
 // let innerText = elementById.innerText;
@@ -624,7 +625,8 @@ console.log(usersWithId); */
 // let elementByTag = document.getElementsByTagName('div');
 // for (let element of elementByTag) {
 //     console.log(element);
-// }*/
+// }
+*/
 
 /*// task 25
 // - змінити цей текст використовуючи селектори id, class,  tag
@@ -646,8 +648,90 @@ console.log(usersWithId); */
 //     console.log(element);
 // }*/
 
-// task 26
+/*// task 26
 // - змінити висоту та ширину блоку використовуючи селектори id, class,  tag
+let elementById = document.getElementById('content');
+elementById.style.width = '400px';
+elementById.style.height = '400px';
+elementById.style.backgroundColor = 'red';
+
+let elementByClass = document.getElementsByClassName('rules');
+for (let element of elementByClass) {
+    element.style.height = '600px';
+    element.style.width = '150px';
+    element.style.backgroundColor = 'blue';
+}
+
+
+let elementByTag = document.getElementsByTagName('h2');
+for (let element of elementByTag) {
+    element.style.width = '400px';
+    element.style.height = '250px' ;
+    element.style.color = 'white';
+    element.style.backgroundColor = 'black';
+}*/
+
+/*// task 27
+// - за допомоги document.createElement та appendChild створити таблицю на 1 рядок з трьома ячейками всередені
+let table = document.createElement('table');
+let tr = document.createElement('tr');
+let td1 = document.createElement('td');
+let td2 = document.createElement('td');
+let td3 = document.createElement('td');
+
+tr.appendChild(td1);
+tr.appendChild(td2);
+tr.appendChild(td3);
+
+table.appendChild(tr);
+
+document.body.appendChild(table);*/
+
+/*// task 28
+// - за допомоги document.createElement, appendChild та циклу створити таблицю на 10 рядків з трьома ячейками всередені
+let table = document.createElement('table');
+for (let i = 0; i < 10; i++) {
+    let tr = document.createElement('tr');
+    for (let j = 0; j < 3; j++) {
+       let td =  document.createElement('td') ;
+       tr.appendChild(td);
+
+    }
+    table.appendChild(tr);
+}
+document.body.appendChild(table);*/
+
+/*// task 29
+//- за допомоги document.createElement, appendChild та 2х циклів створити таблицю на 10 рядків з 5 ячейками всередені
+let table = document.createElement('table');
+for (let i = 0; i < 10; i++) {
+    let tr = document.createElement('tr');
+    for (let j = 0; j < 5; j++) {
+        let td =  document.createElement('td') ;
+        tr.appendChild(td);
+
+    }
+    table.appendChild(tr);
+}
+document.body.appendChild(table);*/
+
+/*
+// task 30
+//- за допомоги document.createElement, appendChild та 2х циклів створити таблицю на n рядків з m ячейками всередені. n та m отримати з prompt
+let n = prompt('write numbers of tr');
+let m = prompt('write numbers of td');
+let table = document.createElement('table');
+for (let i = 0; i < n; i++) {
+    let tr = document.createElement('tr');
+    for (let j = 0; j < m; j++) {
+        let td =  document.createElement('td') ;
+        tr.appendChild(td);
+
+    }
+    table.appendChild(tr);
+}
+document.body.appendChild(table);
+*/
 
 
 

@@ -29,10 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eab174c-7fcb-47c3-872c-77e3646b1765" name="Default Changelist" comment="Lesson3_3_task_2">
-      <change afterPath="$PROJECT_DIR$/Lesson4_Function/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson4_Function/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson4_Function/tasks" afterDir="false" />
+    <list default="true" id="6eab174c-7fcb-47c3-872c-77e3646b1765" name="Default Changelist" comment="Lesson3_task_2_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson3/task2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/task2/script.js" afterDir="false" />
     </list>
@@ -102,7 +99,10 @@
       <workItem from="1604351126580" duration="7830000" />
       <workItem from="1604431425869" duration="134000" />
       <workItem from="1604495272520" duration="7195000" />
-      <workItem from="1604512164459" duration="5866000" />
+      <workItem from="1604512164459" duration="6096000" />
+      <workItem from="1604520943102" duration="5807000" />
+      <workItem from="1604532202444" duration="149000" />
+      <workItem from="1604578455200" duration="2522000" />
     </task>
     <task id="LOCAL-00001" summary="Task1_9">
       <created>1603901886997</created>
@@ -188,7 +188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604502070898</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lesson3_task_2_1">
+      <created>1604518236859</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604518236859</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Lesson3_task_2_2">
+      <created>1604532126746</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604532126747</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +252,9 @@
     <MESSAGE value="Lesson3_3_task_1_done" />
     <MESSAGE value="Lesson3_3_task_1_done_done" />
     <MESSAGE value="Lesson3_3_task_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3_3_task_2" />
+    <MESSAGE value="Lesson3_task_2_1" />
+    <MESSAGE value="Lesson3_task_2_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson3_task_2_2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="391" y="100" key="#Servers" timestamp="1604162313031">
@@ -269,10 +285,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="330" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604431548892" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604502078843">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604532130127">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604502078843" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604532130127" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1604254026542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
