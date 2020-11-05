@@ -80,6 +80,9 @@ console.log(max);*/
 let n = prompt('write "n" number');
 let maximum = printMax(n);
 console.log(maximum);*!/
+
+
+// вот рабочий код
 function printMax () {
     let min = arguments[0];
     let max = arguments[0];
