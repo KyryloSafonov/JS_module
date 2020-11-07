@@ -715,7 +715,6 @@ for (let i = 0; i < 10; i++) {
 }
 document.body.appendChild(table);*/
 
-/*
 // task 30
 //- за допомоги document.createElement, appendChild та 2х циклів створити таблицю на n рядків з m ячейками всередені. n та m отримати з prompt
 let n = prompt('write numbers of tr');
@@ -731,7 +730,6 @@ for (let i = 0; i < n; i++) {
     table.appendChild(tr);
 }
 document.body.appendChild(table);
-*/
 
 
 
