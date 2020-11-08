@@ -346,8 +346,95 @@ function addElement (element, text) {
 
 addElement('p', 'hi bitch')*/
 
-// task 17
+/*// task 17
 // - приймає масив автомобілів (можна взяти з попередніх дз ),та  індентифікатор елемнту в який потрібно додати список цих автомобілів.
+let cars = [
+    {
+        model: 'Doodge Challanger SRT V8',
+        year_of_release: 2015,
+        power: '527 h.f.'
+    },
+    {
+        model: ' Ford Mustang GT Performance',
+        year_of_release: 2015,
+        power: '493 h.f.'
+    },
+    {
+        model: 'Toyota RAV4',
+        year_of_release: 2019,
+        power: '326 h.f.'
+    },
+    {
+        model: 'BMW X5 M-competition',
+        year_of_release: 2020,
+        power: '552 h.f.'
+    },
+    {
+        model: 'Mercedece_Benz GLE 420d',
+        year_of_release: 2018,
+        power: '482 h.f.'
+    },
+    {
+        model: 'Pontiac Pontiac GTO Judge',
+        year_of_release: 1969,
+        power: '593 h.f.'
+    },
+    {
+        model: 'Mazda CX-5 SKYACTIVE',
+        year_of_release: 2018,
+        power: '328 h.f.'
+    },
+    {
+        model: ' Koenigsegg One:1',
+        year_of_release: 2014,
+        power: '1360 h.f'
+    },
+    {
+        model: 'Buick GSX',
+        year_of_release: 1970,
+        power: '350 h.f'
+    },
+    {
+        model: 'Audi A7 Perfomance',
+        year_of_release: 2019,
+        power: '420 h.f'
+    }
+];
+
+function getCar (carArray, iden ) {
+    let block = document.getElementById(`${iden}`);
+    let ul = document.createElement('ul');
+    for (let i=0; i<carArray.length; i++) {
+        let car = carArray[i];
+        let li = document.createElement('li');
+        li.innerHTML = `${car.model}  ${car.year_of_release}  ${car.power}`;
+        ul.appendChild(li);
+    }
+    block.appendChild(ul);
+
+}
+getCar(cars,'car');*/
+
+/*// task 18
+// - Для кожного автомобіля створити свій блок, та додати його в елемент, індентифікатор якого ви отримали. Всі властивості авто в обному блоці
+function getCar (carArray, iden ) {
+    let element = document.createElement(`${iden}`);
+    for (let carArrayElement of carArray) {
+        let div = document.createElement(`div`);
+
+        console.log(carArrayElement)
+        div.innerHTML = `${carArrayElement.model}  ${carArrayElement.year_of_release}  ${carArrayElement.power}`;
+        element.appendChild(div);
+
+
+
+    }
+    document.body.appendChild(element);
+}
+getCar(cars,'p');*/
+
+/*// task 19
+//Для кожної властивості створити всередені блока автомоблія свій блок
 let cars = [
     {
         model: 'Doodge Challanger SRT V8',
@@ -404,11 +491,43 @@ let cars = [
 function getCar (carArray, iden ) {
     let element = document.createElement(`${iden}`);
     for (let carArrayElement of carArray) {
-        console.log(carArrayElement)
-        element.innerHTML = `${carArrayElement.model}`;
-        document.body.appendChild(element);
-    }
+        let model = document.createElement(`div`);
+        let year_of_release = document.createElement('p');
+        let power = document.createElement('h4');
+        model.innerHTML = `${carArrayElement.model} `
+        year_of_release.innerHTML = ` ${carArrayElement.year_of_release}` ;
+        power.innerHTML= `${carArrayElement.power}`;
+        element.appendChild(model);
+        element.appendChild(year_of_release);
+        element.appendChild(power);
 
+
+
+    }
+    document.body.appendChild(element);
+}
+getCar(cars,'div');*/
+
+// task 20
+//**- функція приймає 2 масиви з рівною кількістю об'єктів та з'єднює в один об'єкт користувача та місто з відповідними "id" та "user_id",
+//та повертає масив цих з'єднаних об'єктів.
+let usersWithId = [{id: 1, name: 'vasya', age: 31, status: false}, {id: 2, name: 'petya', age: 30, status: true}, {id: 3, name: 'kolya', age: 29, status: true}, {id: 4, name: 'olya', age: 28, status: false},];
+let citiesWithId = [{user_id: 3, country: 'USA', city: 'Portland'}, {user_id: 1, country: 'Ukraine', city: 'Ternopil'}, {user_id: 2, country: 'Poland', city: 'Krakow'}, {user_id: 4, country: 'USA', city: 'Miami'},];
+
+function twoArrays(array1 , array2) {
+    let users = [...array1];
+    let cities = [...array2];
+
+    for (let city of cities) {
+        for (let user of users) {
+            if (user.id === city.user_id){
+                user.address = city;
+            }
+        }
+        
+    }
+    return users;
 }
 
-getCar(cars,'div')
+let done = twoArrays(usersWithId,citiesWithId);
+console.log(done);
