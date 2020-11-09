@@ -389,6 +389,43 @@ for (let princess of Cindirellas) {
     }
 }*/
 
+/*// task 7
+//-створити функцію конструктор попелюшка з полями ім'я, вік, розмір ноги
+// --Створити 10 попелюшок , покласти їх в масив
+// --Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік, туфелька яку він знайшов, та функцію "пошук попелюшки"
+// -- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
+
+function Cindirella (name, age, size ) {
+    this.name = name;
+    this.age = age;
+    this.size = size;
+}
+let Ira = new Cindirella('Ira', 25, 36);
+let Masha = new Cindirella('Masha', 22, 37);
+let Vika = new Cindirella('Vika', 18, 39);
+let Lena = new Cindirella('Lena', 18, 35);
+let Kate = new Cindirella('Kate', 17, 38);
+let Olga = new Cindirella('Olga', 45, 42);
+let Karina = new Cindirella('Karina', 23, 33);
+
+let Cindirellas = [Ira, Masha, Vika, Lena, Kate, Olga, Karina];
+
+function Prince (name, age, findSize) {
+    this.name = name;
+    this.age = age;
+    this.findSize = findSize;
+
+    this.searchCindirella = function () {
+        for (let princess of Cindirellas) {
+            if (princess.size === findSize) {
+                console.log(princess.name + ' is new Princess');
+            }
+        }
+    }
+}
+
+let prince = new Prince('Kirill', 18, 38);
+prince.searchCindirella();*/
 
 
 
