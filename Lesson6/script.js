@@ -86,7 +86,7 @@ console.log(fourSymbols);*/
 let map = words.map(value => value + '!')
 console.log(map);*/
 
-//Все робити через функції масивів (foreach, map ...тд)
+/*//Все робити через функції масивів (foreach, map ...тд)
 // Дан масив :
 let users = [ {name: 'vasya', age: 31, status: false},
               {name: 'petya', age: 30, status: true},
@@ -98,7 +98,7 @@ let users = [ {name: 'vasya', age: 31, status: false},
               {name: 'andrey', age: 29, status: true},
               {name: 'masha', age: 30, status: true},
               {name: 'olya', age: 31, status: false},
-              {name: 'max', age: 31, status: true}];
+              {name: 'max', age: 31, status: true}];*/
 
 /*// task 11
 //- відсортувати його за  віком (зростання , а потім окремо спадання)
@@ -142,41 +142,72 @@ let users = [ {name: 'vasya', age: 31, status: false},
 /*// task 13
 //- пройтись по ньому та додати кожному юзеру поле id - яке характеризує унікальний індентифікатор
 // (По якому принципу його створювати - ваше рішення), та зберегти це в новий масив (первинний масив залишиться без змін)
-let map = users.map(value => {
+let map = users.map((value, index) => {
     //console.log(value);
-    value.id = 0
+    value.id = Math.floor(Math.random()*100)*(index +1);
     return value;
 })
-console.log(map);*/
+console.log(map);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Additionaly task from Vitalya
-function findMissingLetter (arr) {
-    for (let i = 1; i < arr.length; i++) {
-        let prev = arr[i - 1].charCodeAt();
-        let current = arr[i].charCodeAt();
-        if (current - prev !== 1) {
-            return String.fromCharCode(prev + 1);
-        }
+//- відсортувати його за індентифікатором (в порядку зростання)
+let sort  = map.sort((a, b) => {
+    if (a.id < b.id){
+        return -1;
     }
+    return 1;
+})
+console.log(sort);
 
-    return 0;
+//- відсортувати його за індентифікатором (в порядку спадання)
+let sort1  = map.sort((a, b) => {
+    if (a.id > b.id){
+        return -1;
+    }
+    return 1;
+})
+console.log(sort1);*/
+
+/*// task 14
+// -- наисать функцию калькулятора с 2мя числами и колбеком
+function calculate (number1, number2, callback) {
+    return callback(number1,number2);
 }
-console.log(findMissingLetter(["a", "b", "c", "d", "f"]));
-console.log(findMissingLetter(["O", "Q", "R", "S"]));
+
+let calc = calculate(5,7,(number1, number2) =>{
+    return number1 + number2
+})
+console.log(calc);*/
+
+/*// task 15
+//-- наисать функцию калькулятора с 3мя числами и колбеком
+function calculate (number1, number2, number3, callback) {
+    return callback(number1,number2,number3);
+}
+
+let calc = calculate(5,7,7,(number1, number2,number3) =>{
+    return number1 + number2 + number3;
+})
+console.log(calc);*/
+
+
+// //Additionaly task from Vitalya
+// //найти приопущенную букву в массиве:
+// //
+// // ["a","b","c","d","f"] -> "e"
+// // ["O","Q","R","S"] -> "P"
+// function findMissingLetter (arr) {
+//     for (let i = 1; i < arr.length; i++) {
+//         let prev = arr[i - 1].charCodeAt();
+//         let current = arr[i].charCodeAt();
+//         if (current - prev !== 1) {
+//             return String.fromCharCode(prev + 1);
+//         }
+//     }
+//
+//     return 0;
+// }
+// console.log(findMissingLetter(["a", "b", "c", "d", "f"]));
+// console.log(findMissingLetter(["O", "Q", "R", "S"]));
 
 
 
