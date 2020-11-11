@@ -139,7 +139,7 @@ let users = [ {name: 'vasya', age: 31, status: false},
 //
 // console.log(sort);*/
 
-// task 13
+/*// task 13
 //- пройтись по ньому та додати кожному юзеру поле id - яке характеризує унікальний індентифікатор
 // (По якому принципу його створювати - ваше рішення), та зберегти це в новий масив (первинний масив залишиться без змін)
 let map = users.map(value => {
@@ -147,7 +147,36 @@ let map = users.map(value => {
     value.id = 0
     return value;
 })
-console.log(map);
+console.log(map);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Additionaly task from Vitalya
+function findMissingLetter (arr) {
+    for (let i = 1; i < arr.length; i++) {
+        let prev = arr[i - 1].charCodeAt();
+        let current = arr[i].charCodeAt();
+        if (current - prev !== 1) {
+            return String.fromCharCode(prev + 1);
+        }
+    }
+
+    return 0;
+}
+console.log(findMissingLetter(["a", "b", "c", "d", "f"]));
+console.log(findMissingLetter(["O", "Q", "R", "S"]));
 
 
 
