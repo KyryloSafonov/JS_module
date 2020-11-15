@@ -108,6 +108,18 @@ let usersWithAddress = [{id: 1, name: 'vasya', age: 31, status: false, address: 
 // })
 // console.log(sort);
 
+//-- отсортировать его по возрасту пользователей
+let sort = usersWithAddress.sort((a, b) => {
+    if (a.age < b.age) {
+        return -1
+    }
+    if (a.age > b.age){
+        return 1
+    }
+    return 0;
+})
+console.log(sort);
+
 
 // //Cоздать функцию которая принимает число и возвращает  текст как в примере:
 // // 3275  —>  "3000 + 200 + 70 +5"
