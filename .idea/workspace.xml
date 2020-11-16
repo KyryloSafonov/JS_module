@@ -31,6 +31,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6eab174c-7fcb-47c3-872c-77e3646b1765" name="Default Changelist" comment="Lesson7_task_">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson7/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson7/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson7/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson7/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +122,8 @@
       <workItem from="1605290917185" duration="783000" />
       <workItem from="1605469611878" duration="11896000" />
       <workItem from="1605514999511" duration="629000" />
+      <workItem from="1605549493443" duration="1477000" />
+      <workItem from="1605551005900" duration="3978000" />
     </task>
     <task id="LOCAL-00001" summary="Task1_9">
       <created>1603901886997</created>
@@ -317,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605484415168</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Lesson7_task_">
+      <created>1605549658193</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605549658193</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,10 +424,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="330" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604431548892" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605484426161">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605549663773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605484426161" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605549663773" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1604254026542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

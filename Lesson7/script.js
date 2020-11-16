@@ -141,10 +141,85 @@ function createTable(rows,cols,elem) {
 
 createTable(3, 3 , 'div');*/
 
-// task 8
-//- Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
-// При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
-// (Додатковачастина для завдання)
+// // task 8
+// //- Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+// // При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+// // (Додатковачастина для завдання)
+// let btn = document.getElementById('btn');
+// btn.onclick = ev => {
+//     let row = document.getElementById('rows').value;
+//     let col = document.getElementById('cols').value;
+//     let text = document.getElementById('value').value;
+//     let table = document.createElement('table');
+//
+//     for(let i =0; i< row; i++) {
+//         let tr = document.createElement('tr');
+//         for(let j =0; j< col; j++) {
+//             let td = document.createElement('td');
+//             td.innerHTML = text;
+//             tr.appendChild(td);
+//         }
+//         table.appendChild(tr)
+//     }
+//     document.body.appendChild(table)
+// }
+
+/*// task 9
+// - Напишите «Карусель» – ленту изображений, которую можно листать влево-вправо нажатием на стрелочки.
+let images = [
+    {id:1, imageURL:'pictures/1.jpg'},
+    {id:2, imageURL:'pictures/2.jpg'},
+    {id:3, imageURL:'pictures/3.jpg'},
+    {id:4, imageURL:'pictures/4.jpg'},
+    {id:5, imageURL:'pictures/5.jpg'},
+    {id:6, imageURL:'pictures/6.jpg'}
+]
+let div = document.getElementById('photos');
+let img = document.createElement('img');
+let btnLeft = document.getElementById('left');
+let btnRight = document.getElementById('right');
+
+let i = 0;
+img.width = 400;
+img.height = 400;
+img.src = images[i].imageURL;
+
+btnLeft.onclick = ev => {
+    i - 1 < 0
+        ? i = images.length - 1
+        : i = i - 1
+
+    img.src = images[i].imageURL;
+}
+btnRight.onclick = ev => {
+    i + 1 > images.length - 1
+        ? i = 0
+        : i = i + 1
+
+    img.src = images[i].imageURL;
+}
+div.appendChild(img);*/
+
+// task 10
+// - Сворити масив не цензцрних слів.
+// Сворити інпут текстового типу.
+// Якщо людина вводить слово і воно міститься в масиві не цензурних слів
+// кинути алерт з попередженням.
+// Перевірку робити при натисканні на кнопку
+let badWords = ['suck'];
+let btn = document.getElementById('btn');
+btn.onclick = ev => {
+    let input = document.getElementById('input');
+    for (let i = 0; i < badWords.length; i++) {
+       if (input.value === badWords[i]){
+           alert('Dont say this')
+       }
+
+    }
+}
+
+
+
 
 
 
