@@ -29,10 +29,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eab174c-7fcb-47c3-872c-77e3646b1765" name="Default Changelist" comment="Lesson4_task">
+    <list default="true" id="6eab174c-7fcb-47c3-872c-77e3646b1765" name="Default Changelist" comment="Lesson7_task_">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson3/task2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson3/task2/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson4_Function/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson4_Function/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Lesson1/script.js" working-dir="$PROJECT_DIR$/Lesson1">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" node-parameters="$AffectedModuleNames$" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Lesson1">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -107,7 +105,21 @@
       <workItem from="1604618852675" duration="116000" />
       <workItem from="1604625366361" duration="4796000" />
       <workItem from="1604684256743" duration="1905000" />
-      <workItem from="1604762263145" duration="9559000" />
+      <workItem from="1604762263145" duration="9829000" />
+      <workItem from="1604778954149" duration="4855000" />
+      <workItem from="1604847652706" duration="11576000" />
+      <workItem from="1604943878515" duration="6212000" />
+      <workItem from="1604950306317" duration="11000" />
+      <workItem from="1604953410835" duration="1679000" />
+      <workItem from="1605018378017" duration="596000" />
+      <workItem from="1605048617240" duration="9969000" />
+      <workItem from="1605058783243" duration="991000" />
+      <workItem from="1605094316667" duration="2607000" />
+      <workItem from="1605116907271" duration="5878000" />
+      <workItem from="1605202818645" duration="3272000" />
+      <workItem from="1605290917185" duration="783000" />
+      <workItem from="1605469611878" duration="11896000" />
+      <workItem from="1605514999511" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="Task1_9">
       <created>1603901886997</created>
@@ -228,7 +240,84 @@
       <option name="project" value="LOCAL" />
       <updated>1604618569649</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Lesson4_task">
+      <created>1604773117302</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604773117302</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Lesson4_task_done">
+      <created>1604850573595</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604850573595</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Lesson5_task_">
+      <created>1604938214524</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604938214524</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Lesson5_task_">
+      <created>1604950257375</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604950257375</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Lesson5_task_done">
+      <created>1604954408199</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604954408200</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Lesson6_task_">
+      <created>1605058501430</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605058501433</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Lesson6_task_">
+      <created>1605059753466</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605059753466</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Lesson6_task_done">
+      <created>1605096629693</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605096629693</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Lesson2_task_">
+      <created>1605122772482</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605122772482</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Lesson7_task_">
+      <created>1605477109733</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605477109733</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Lesson7_task_">
+      <created>1605484415168</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1605484415168</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +371,14 @@
     <MESSAGE value="Lesson3_task_2_2" />
     <MESSAGE value="Lesson3_task_2_done" />
     <MESSAGE value="Lesson4_task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson4_task" />
+    <MESSAGE value="Lesson4_task_done" />
+    <MESSAGE value="Lesson5_task_" />
+    <MESSAGE value="Lesson5_task_done" />
+    <MESSAGE value="Lesson6_task_" />
+    <MESSAGE value="Lesson6_task_done" />
+    <MESSAGE value="Lesson2_task_" />
+    <MESSAGE value="Lesson7_task_" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson7_task_" />
   </component>
   <component name="WindowStateProjectService">
     <state x="391" y="100" key="#Servers" timestamp="1604162313031">
@@ -293,6 +389,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="447" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604516300289" />
+    <state x="462" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605095154448">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1605095154448" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604167253927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -313,10 +413,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="330" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604431548892" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604618574353">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605484426161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604618574353" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605484426161" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1604254026542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
