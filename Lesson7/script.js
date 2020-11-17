@@ -200,23 +200,34 @@ btnRight.onclick = ev => {
 }
 div.appendChild(img);*/
 
-// task 10
+/*// task 10
 // - Сворити масив не цензцрних слів.
 // Сворити інпут текстового типу.
 // Якщо людина вводить слово і воно міститься в масиві не цензурних слів
 // кинути алерт з попередженням.
 // Перевірку робити при натисканні на кнопку
-let badWords = ['suck'];
+let badWords = ['suck', 'fuck', 'fuck up', 'fuck off', 'fuck you', 'fucking ass', 'bitch', 'freak' +
+'whore', 'douchebag'];
 let btn = document.getElementById('btn');
 btn.onclick = ev => {
     let input = document.getElementById('input');
     for (let i = 0; i < badWords.length; i++) {
-       if (input.value === badWords[i]){
+       if (input.value.toLowerCase() === badWords[i].toLowerCase()){
            alert('Dont say this')
        }
 
     }
-}
+}*/
+
+// task 11
+//- Сворити масив не цензцрних слів.
+// Сворити інпут текстового типу.
+// Потрібно перевіряти чи не містить ціле речення в собі погані слова.
+// Кинути алерт з попередженням у випадку якщо містить.
+// Перевірку робити при натисканні на кнопку
+let badWords = ['suck', 'fuck', 'fuck up', 'fuck off', 'fuck you', 'fucking ass', 'bitch', 'freak' +
+'whore', 'douchebag'];
+
 
 
 
